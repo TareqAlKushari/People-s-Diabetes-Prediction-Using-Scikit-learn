@@ -1,6 +1,3 @@
-# People-s-Diabetes-Prediction-Using-Scikit-learn
-People's Diabetes Prediction project using Machine Learning by Scikit-learn in Python
-
 # People's Diabetes Prediction Using Scikit-learn
 
 This project showcases a machine learning approach to **predicting whether a person is likely to have diabetes** based on medical diagnostic measurements. It uses the **Pima Indians Diabetes Dataset** and applies various preprocessing and classification techniques using **Scikit-learn**.
@@ -53,4 +50,45 @@ The goal is to train a predictive model that can determine the presence of diabe
 ```bash
 git clone https://github.com/TareqAlKushari/People-s-Diabetes-Prediction-Using-Scikit-learn.git
 cd People-s-Diabetes-Prediction-Using-Scikit-learn
+```
 
+### 2. Install the required packages
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+### 3. Launch the notebook
+
+```bash
+jupyter notebook "People's Diabetes Prediction.ipynb"
+```
+---
+
+## 📊 Dataset Overview
+
+The dataset contains the following features:
+
+- Pregnancies
+- Glucose
+- Blood Pressure
+- Skin Thickness
+- Insulin
+- BMI
+- Diabetes Pedigree Function
+- Age
+- Outcome (0 = No diabetes, 1 = Diabetes)
+
+---
+
+## 📈 Model Performance
+
+The notebook compares multiple models and provides accuracy scores and confusion matrices to evaluate performance. The best-performing model is highlighted along with its insights.
+
+---
+
+## 💡 Learning Outcomes
+- Understand the machine learning workflow in Scikit-learn
+- Practice data preprocessing and feature engineering
+- Evaluate classification models and tune hyperparameters
+- Interpret model results and make data-driven decisions
