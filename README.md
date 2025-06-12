@@ -92,3 +92,7 @@ The notebook compares multiple models and provides accuracy scores and confusion
 - Practice data preprocessing and feature engineering
 - Evaluate classification models and tune hyperparameters
 - Interpret model results and make data-driven decisions
+
+## Author
+
+Created by [@TareqAlKushari](https://github.com/TareqAlKushari).
